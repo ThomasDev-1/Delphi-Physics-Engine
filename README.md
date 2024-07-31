@@ -25,7 +25,7 @@ This is a simple Physics simulating Unit that can be used in any Delphi 10.4 pro
 --------------------------------
 
 ### Collisions
-####Description:
+#### Description:
 A public function CheckCol() allows you to detect a collision within an object. The function will return true if any object that stems from the TControl type enters the bounds of the parsed TControl object. Both objects MUST share the same Parent in order for collisions to be detected.
 
 #### Usage:
@@ -36,7 +36,7 @@ Replace "TControlComponent" with the name of your component. Function will retur
 
 
 ### Gravity
-####Description:
+#### Description:
 A public procedure ApplyGravity() simulates gravity being applied to multiple objects at the same time. Must be called from within a TTimer component with a maximum Interval of 16. Gravity can be applied to ANY component type, however is designed to work with TControl components.
 
 #### Usage:
